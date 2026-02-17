@@ -8,9 +8,12 @@
 </head>
 <body>
     <div class="section right">
-        <div class="odin-logo">ODIN</div>
+        <img class="backgroud" src="halie-west-25xggax4bSA-unsplash.jpg" alt="backgroud-form">
+        <div class="odin-logo">
+            <img class="logo" src="odin-lined.png" alt="odin-logo">
+            <h1>ODIN</h1>
+        </div>
         <p class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></p>
-        <img src="" alt="">
     </div>
     <div class="section left">
         <h2>This is not a real online service! You know you need something like this in your
@@ -18,22 +21,25 @@
         </h2>
         <h2>You <em>know</em> what you want</h2>
         <form>
-            <h2>Let's do this!</h2>
+            <fieldset>
+                <legend></legend>
+                <h2>Let's do this!</h2>
 
-            <legend for="fname">FIRST NAME</legend>
-            <input type="text" id="fname" name="user_fname"/>
-            <legend for="lname">LAST NAME</legend>
-            <input type="text" id="lname" name="user_lname"/>
+                <legend for="fname">FIRST NAME</legend>
+                <input type="text" id="fname" name="user_fname"/>
+                <legend for="lname">LAST NAME</legend>
+                <input type="text" id="lname" name="user_lname"/>
 
-            <legend for="email">EMAIL</legend>
-            <input type="email" id="email" name="user_email"/>
-            <legend for="phone">PHONE NUMBER</legend>
-            <input type="number" id="phone" name="user_phone"/>
-
-            <legend for="password">PASSWORD</legend>
-            <input type="password" id="password" name="user_password"/>
-            <legend for="cpassword">CONFIRM PASSWORD</legend>
-            <input type="password" id="cpassword" name="user_cpassword"/>
+                <legend for="email">EMAIL</legend>
+                <input type="email" id="email" name="user_email"/>
+                <legend for="phone">PHONE NUMBER</legend>
+                <input type="number" id="phone" name="user_phone"/>
+            
+                <legend for="password">PASSWORD</legend>
+                <input type="password" id="password" name="user_password"/>
+                <legend for="cpassword">CONFIRM PASSWORD</legend>
+                <input type="password" id="cpassword" name="user_cpassword"/>
+            </fieldset>
         
             <button type="submit">Create Account</button>
         </form>

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Norse Bold;
+    src: url('Norsebold.woff2') format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #596D48;
+    --primary-text: #000;
+    --secondary-text: rgb(200, 200, 200);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    background-color: var(--secondary-text);
+}
+
+.section {
+    position: relative;
+}
+
+/* Right Section */
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backgroud {
+    height: 100vh;
+}
+
+.odin-logo {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0, 50%);
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 15%;
+}
+
+h1 {
+    margin: 0;
+    color: var(--primary-color);
+    font-family: Norse Bold;
+    font-size: 125px;
+}
+
+.credit {
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 8px;
+}
+
+.credit a:link {
+    color: var(--primary-color);
+}
+.credit a:visited {
+    color: var(--primary-color);
+}
+.credit a:hover {
+    color: var(--secondary-text);
+}
+.credit a:active {
+    color: var(--primary-color);
+}
+
+
+/* Left Section */
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    margin: 0;
+    padding-left: 4em;
+    background-color: var(--primary-color);
+}
