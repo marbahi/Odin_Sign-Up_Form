@@ -16,35 +16,43 @@
         <p class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></p>
     </div>
     <div class="section left">
-        <h2>This is not a real online service! You know you need something like this in your
+        <div class="top">
+            <h2>This is not a real online service! You know you need something like this in your
             life to help yout realize your deepest dreams. Sign up <em>now</em> to get started
-        </h2>
-        <h2>You <em>know</em> what you want</h2>
+            </h2>
+            <h2>You <em>know</em> what you want</h2>
+        </div>
         <form>
-            <fieldset>
-                <legend></legend>
+            <div class="middle">
                 <h2>Let's do this!</h2>
 
-                <legend for="fname">FIRST NAME</legend>
-                <input type="text" id="fname" name="user_fname"/>
-                <legend for="lname">LAST NAME</legend>
-                <input type="text" id="lname" name="user_lname"/>
+                <div class="name">
+                    <legend for="fname">FIRST NAME</legend>
+                    <input class="firstname" type="text" id="fname" name="user_fname"/>
+                    <legend for="lname">LAST NAME</legend>
+                    <input type="text" id="lname" name="user_lname"/>
+                </div>
 
-                <legend for="email">EMAIL</legend>
-                <input type="email" id="email" name="user_email"/>
-                <legend for="phone">PHONE NUMBER</legend>
-                <input type="number" id="phone" name="user_phone"/>
+                <div class="contact">
+                    <legend for="email">EMAIL</legend>
+                    <input type="email" id="email" name="user_email"/>
+                    <legend for="phone">PHONE NUMBER</legend>
+                    <input type="number" id="phone" name="user_phone"/>
+                </div>
             
-                <legend for="password">PASSWORD</legend>
-                <input type="password" id="password" name="user_password"/>
-                <legend for="cpassword">CONFIRM PASSWORD</legend>
-                <input type="password" id="cpassword" name="user_cpassword"/>
-            </fieldset>
+                <div class="password">
+                    <legend for="password">PASSWORD</legend>
+                    <input type="password" id="password" name="user_password"/>
+                    <legend for="cpassword">CONFIRM PASSWORD</legend>
+                    <input type="password" id="cpassword" name="user_cpassword"/>
+                </div>
+            </div>
         
-            <button type="submit">Create Account</button>
+            <div class="bottom">
+                <button type="submit">Create Account</button>
+                <p class="login">Alredy have an account? <a href="#">Log in</a></p>
+            </div>
         </form>
-
-        <p class="login">Alredy have an account? <a href="#">Log in</a></p>
     </div>
 </body>
 </html>
